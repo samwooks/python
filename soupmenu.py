@@ -1,5 +1,6 @@
 '''
-soupmenu.py is a python program that utilizes a dictionary to store the inventory of different soup. User can replenish the inventory and the customer can purchase inventory.
+soupmenu.py is a python program that utilizes a dictionary to store the inventory of different soup.
+User can replenish the inventory and the customer can purchase inventory.
 This program mainly uses if else and while loops.
 have fun running this program and do give your comments. Thanks a mil!!!
 '''
@@ -9,9 +10,11 @@ souplist = {}
 
 
 while True:
+    #error handling
     try:
+        #display main menu
         choice = int(input("\nPlease choose the following: \n1. Purhase Soup \n2. Replenish Soup \n3. Display Soups List \n0. Exit \n"))
-
+        #first choice option - purchase soup and remove purchased soup from inventory
         if choice == 1:
             if souplist == {}:
                 print("out of stock of all soups!")
@@ -41,7 +44,7 @@ while True:
                             break
                         else:
                             pass
-
+        #second choice option - replenish soup inventory
         if choice == 2:
             name = str(input("Enter Soup name: "))
             while True:
@@ -65,7 +68,7 @@ while True:
                         break
                 except ValueError:
                     print("Please enter integer number only!!")
-
+        #third choice option - Display soups in Inventory
         if choice == 3:
             if souplist == {}:
                 print("out of stock of all soups!")
@@ -74,14 +77,14 @@ while True:
                 for key in sorted(souplist.keys()):
                     print(key, "-", souplist[key])
                 print("---")
-
+        #forth choice option - exit program
         if choice == 0:
             print("Goodbye")
             break
 
         elif choice < 0 or choice > 3:
             print("Please enter a valid input")
-
+    #catch ValueErrors
     except ValueError:
         print("Please enter integer only")
 
