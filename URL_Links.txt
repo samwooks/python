@@ -1,0 +1,6 @@
+'''
+This textfile is created as a collection of useful websites that explains certain topics of python
+'''
+
+Python Exception Handling:
+https://realpython.com/python-exceptions/
