@@ -8,5 +8,7 @@ https://developers.google.com/edu/python
 
 
 #scripts and codes
-Python Exception Handling:
+#-Python Exception Handling:
 https://realpython.com/python-exceptions/
+#-Dictionaries
+https://www.learnbyexample.org/python-dictionary-comprehension/
