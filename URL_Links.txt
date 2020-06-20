@@ -7,9 +7,15 @@ https://developers.google.com/edu/python
 
 
 
-#scripts and codes
+#SCRIPTS AND CODES
 #-Python Exception Handling:
 https://realpython.com/python-exceptions/
 #-Dictionaries
 https://www.learnbyexample.org/python-dictionary-comprehension/
 https://www.geeksforgeeks.org/python-ways-to-create-a-dictionary-of-lists/
+
+
+
+#LIBRARIES 
+#-Pandas
+https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
