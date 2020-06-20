@@ -12,3 +12,4 @@ https://developers.google.com/edu/python
 https://realpython.com/python-exceptions/
 #-Dictionaries
 https://www.learnbyexample.org/python-dictionary-comprehension/
+https://www.geeksforgeeks.org/python-ways-to-create-a-dictionary-of-lists/
