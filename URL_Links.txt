@@ -2,5 +2,11 @@
 This textfile is created as a collection of useful websites that explains certain topics of python
 '''
 
+#LEARN PYTHON
+https://developers.google.com/edu/python
+
+
+
+#scripts and codes
 Python Exception Handling:
 https://realpython.com/python-exceptions/
